@@ -2,11 +2,7 @@ import cv2
 import mediapipe as mp
 import pyautogui
 import math
-import cv2
-import mediapipe as mp
-import pyautogui
 import numpy as np
-import math
 
 # Initialize mediapipe hand tracking
 mp_hands = mp.solutions.hands
