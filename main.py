@@ -2,6 +2,10 @@ import cv2
 import mediapipe as mp
 import pyautogui
 import numpy as np
+import webbrowser
+
+# Open Google Maps in a web browser
+webbrowser.open('https://www.google.com/maps')
 
 # Initialize MediaPipe Hands
 mp_hands = mp.solutions.hands
